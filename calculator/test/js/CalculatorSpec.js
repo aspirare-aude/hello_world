@@ -2,11 +2,10 @@ describe ("My Calculator", function() {
 
  it("should clear all when C is clicked", function() {
 
-
- expect (Calculator.clearAll(2.2)).toBe(1);
+ expect (Calculator.clearAll(input)).toBe('');
 
  })
- 
+
  describe('JavaScript addition operator', function () {
     it('should add two numbers together', function () {
         expect(1 + 2).toEqual(3);

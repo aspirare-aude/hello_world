@@ -21,6 +21,8 @@ var operators = ['+', '-', 'x', '÷'];
 // Add onclick event to all the keys and perform operations
 for(var i = 0; i < keys.length; i++) {
     keys[i].onclick = function(e) {
+        console.log(input);
+
         // Get the input and button values
         var input = document.querySelector('.screen');
         //gets value of screen input

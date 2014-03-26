@@ -50,6 +50,7 @@ var decimalAdded = false;
  clearAll: function (input) {
             input.innerHTML = '';
 			decimalAdded = false;
+			return input.innerHTML;
 
  },
 
